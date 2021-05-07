@@ -1,0 +1,17 @@
+.planet {
+  display: grid;
+  grid-template-columns: 60px repeat(4, 1fr) 40px;
+  text-align: center;
+  gap: 2px;
+  background-color: lightgray;;
+  p {
+    background-color: honeydew;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 2px;
+  }
+  button {
+    background-color: rgb(243, 124, 124);
+    border: solid 1px red;
+  }
+}
